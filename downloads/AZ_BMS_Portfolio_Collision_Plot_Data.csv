@@ -1,0 +1,33 @@
+disease_area,plot_label,factor,overlap_count,intensity,az_programs,bms_programs,relationship
+Solid-tumor oncology,Solid tumors,Shared indications,2,3,11,7,Strong collision
+Solid-tumor oncology,Solid tumors,Shared modalities,4,3,11,7,Strong collision
+Solid-tumor oncology,Solid tumors,Shared target / mechanism,2,3,11,7,Strong collision
+Solid-tumor oncology,Solid tumors,Stage alignment,2,3,11,7,Strong collision
+Hematology,Hematology,Shared indications,2,3,4,4,Strong collision
+Hematology,Hematology,Shared modalities,2,3,4,4,Strong collision
+Hematology,Hematology,Shared target / mechanism,1,3,4,4,Strong collision
+Hematology,Hematology,Stage alignment,1,2,4,4,Strong collision
+"Immunology, respiratory & fibrosis",Immunology / resp. / fibrosis,Shared indications,0,0,7,3,Platform adjacency
+"Immunology, respiratory & fibrosis",Immunology / resp. / fibrosis,Shared modalities,2,1,7,3,Platform adjacency
+"Immunology, respiratory & fibrosis",Immunology / resp. / fibrosis,Shared target / mechanism,0,0,7,3,Platform adjacency
+"Immunology, respiratory & fibrosis",Immunology / resp. / fibrosis,Stage alignment,1,1,7,3,Platform adjacency
+Cardiovascular,CV,Shared indications,1,2,3,2,Narrow adjacency
+Cardiovascular,CV,Shared modalities,1,1,3,2,Narrow adjacency
+Cardiovascular,CV,Shared target / mechanism,0,0,3,2,Narrow adjacency
+Cardiovascular,CV,Stage alignment,2,2,3,2,Narrow adjacency
+Rare disease,Rare disease,Shared indications,0,0,9,0,AZ-led fit
+Rare disease,Rare disease,Shared modalities,0,0,9,0,AZ-led fit
+Rare disease,Rare disease,Shared target / mechanism,0,0,9,0,AZ-led fit
+Rare disease,Rare disease,Stage alignment,0,0,9,0,AZ-led fit
+Renal & metabolic,Renal / metabolic,Shared indications,0,0,7,0,AZ-led fit
+Renal & metabolic,Renal / metabolic,Shared modalities,0,0,7,0,AZ-led fit
+Renal & metabolic,Renal / metabolic,Shared target / mechanism,0,0,7,0,AZ-led fit
+Renal & metabolic,Renal / metabolic,Stage alignment,0,0,7,0,AZ-led fit
+Infectious disease,Infectious disease,Shared indications,0,0,3,0,AZ-led fit
+Infectious disease,Infectious disease,Shared modalities,0,0,3,0,AZ-led fit
+Infectious disease,Infectious disease,Shared target / mechanism,0,0,3,0,AZ-led fit
+Infectious disease,Infectious disease,Stage alignment,0,0,3,0,AZ-led fit
+Neuroscience,Neuroscience,Shared indications,0,0,0,2,BMS-led fit
+Neuroscience,Neuroscience,Shared modalities,0,0,0,2,BMS-led fit
+Neuroscience,Neuroscience,Shared target / mechanism,0,0,0,2,BMS-led fit
+Neuroscience,Neuroscience,Stage alignment,0,0,0,2,BMS-led fit
