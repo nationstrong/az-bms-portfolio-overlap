@@ -240,6 +240,7 @@
       return {...t,color:salesColor(t.company,index)};
     });
     const allValues=series.flatMap(t=>[...(t.actual||[]),...(t.projected||[])]).filter(p=>Number.isFinite(p.revenue)&&p.revenue>0);
+    if(!allValues.length)return '<div class="empty-state">Sales data are available, but no valid revenue points were found for this selection.</div>';
     const allYears=allValues.map(p=>Number(p.year));
     const maxValue=Math.max(...allValues.map(p=>p.revenue));
     const W=1080,H=500,m={l:78,r:28,t:34,b:58};
@@ -276,7 +277,7 @@
     }).join('');
     const scaleText='Linear scale';
     const axisTitle='Worldwide revenue ($M)';
-    const svg=`<div class="combined-chart-scroll"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Combined reported and projected worldwide revenue for ${series.length} relevant marketed brands">${yGrid}${xGrid}<text x="${-(m.t+(H-m.t-m.b)/2)}" y="18" transform="rotate(-90)" text-anchor="middle" class="sales-axis-title">${axisTitle}</text>${plotted}</svg></div>`;
+    const svg=`<div class="combined-chart-scroll" style="overflow-x:auto;min-height:360px"><svg viewBox="0 0 ${W} ${H}" style="display:block;width:100%;min-width:900px;height:auto" role="img" aria-label="Combined reported and projected worldwide revenue for ${series.length} relevant marketed brands">${yGrid}${xGrid}<text x="${-(m.t+(H-m.t-m.b)/2)}" y="18" transform="rotate(-90)" text-anchor="middle" class="sales-axis-title">${axisTitle}</text>${plotted}</svg></div>`;
     const legend=series.map(t=>{
       const latestActual=(t.actual||[]).length?t.actual[t.actual.length-1]:null;
       const finalProjected=(t.projected||[]).length?t.projected[t.projected.length-1]:null;
@@ -296,9 +297,15 @@
     return ordered.slice(0,6);
   }
   function renderSalesTrends(programs=[],units=[]){
-    const trends=relevantSalesTrends(programs,units);
-    currentTrendCount=trends.length;
-    salesChartGrid.innerHTML=renderCombinedSalesChart(trends);
+    try{
+      const trends=relevantSalesTrends(programs,units);
+      currentTrendCount=trends.length;
+      salesChartGrid.innerHTML=renderCombinedSalesChart(trends);
+    }catch(error){
+      console.error('Commercial chart render failed',error);
+      currentTrendCount=0;
+      salesChartGrid.innerHTML='<div class="chart-error"><strong>The commercial chart could not load.</strong><br>Refresh after replacing <code>assets/app.js</code>, <code>assets/data.js</code>, and <code>assets/styles.css</code> together.</div>';
+    }
     benchmarkSection.hidden=!currentTrendCount&&!benchmarkGrid.children.length;
   }
   function renderBenchmarks(units=[]){

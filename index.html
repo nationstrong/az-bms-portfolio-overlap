@@ -10,7 +10,7 @@
   <meta property="og:image" content="assets/figure-fallback.png">
   <title>AstraZeneca + BMS: Portfolio Fit or Collision?</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css?v=6">
+  <link rel="stylesheet" href="assets/styles.css?v=7">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -79,7 +79,7 @@
             <div><div class="kicker">Commercial trajectory</div><h4>Relevant marketed-brand sales: history, scenario and patent cliff</h4><p>All relevant brands are plotted together on a linear revenue scale. Solid segments are company-reported worldwide revenue; dashed segments are analyst scenarios, and red diamonds mark disclosed loss-of-exclusivity events used in the projection.</p></div>
             <div class="sales-legend" aria-label="Sales chart legend"><span><i class="line-key solid"></i>Reported</span><span><i class="line-key dashed"></i>Projected scenario</span><span><i class="loe-key"></i>Product-specific patent / LOE</span></div>
           </div>
-          <div class="sales-chart-grid" id="sales-chart-grid"></div>
+          <div class="sales-chart-grid" id="sales-chart-grid"><div class="chart-loading" role="status">Loading commercial trajectory chart…</div></div>
           <details class="forecast-disclosure"><summary>How the projections are built</summary><p>2026E generally annualizes reported H1 2026 revenue. Later years apply product-specific growth or erosion assumptions. Disclosed patent and regulatory exclusivity dates are explicitly reflected when they fall inside the forecast horizon. New-launch curves for Etcamah and Baxfendy are illustrative scenarios, not consensus estimates or company guidance.</p></details>
           <div class="benchmark-subhead">Latest commercial scale points</div><div class="benchmark-grid" id="benchmark-grid"></div>
         </div>
@@ -123,6 +123,6 @@
 </main>
 <footer><div class="container"><div class="footer-grid"><div><strong>Portfolio fit-or-collision explorer</strong><br>Website updated 5 August 2026; matched portfolio data use company pipeline disclosures published in February 2026.</div><div>For strategic discussion only. Not medical, legal or investment advice.</div></div></div></footer>
 <div class="tooltip" id="tooltip" role="tooltip"></div>
-<script src="assets/data.js?v=6"></script><script src="assets/app.js?v=6"></script>
+<script src="assets/data.js?v=7"></script><script src="assets/app.js?v=7"></script>
 </body>
 </html>
