@@ -19,3 +19,9 @@ One row per program in the curated trial-level detail set, plus pipeline-snapsho
 
 ## `commercial_benchmarks.csv`
 Company-reported brand revenue used only to illustrate franchise scale. Figures are generally worldwide and not indication-specific.
+
+## `fit_collision_matrix.csv`
+One row per populated indication-territory × modality-family matrix cell. `status` is `az-only`, `bms-only`, or `overlap`; the company program lists support each cell.
+
+## `program_matrix_mapping.csv`
+One row per program × normalized indication-territory assignment. Multi-indication programs appear on multiple rows.

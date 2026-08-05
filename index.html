@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Interactive AstraZeneca and Bristol Myers Squibb late-stage portfolio overlap analysis with indication-level evidence and trial details.">
+  <meta name="description" content="Interactive AstraZeneca and Bristol Myers Squibb late-stage portfolio fit-and-collision analysis with indication-by-modality maps and trial details.">
   <meta property="og:title" content="AstraZeneca + BMS: Portfolio Fit or Collision?">
-  <meta property="og:description" content="Click each overlap bubble to inspect the exact indications, modalities, mechanisms and programs behind the count.">
+  <meta property="og:description" content="Explore where the portfolios complement each other and where they occupy the same indication-by-modality territory.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="assets/figure-fallback.png">
   <title>AstraZeneca + BMS: Portfolio Fit or Collision?</title>
@@ -16,7 +16,7 @@
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="nav-wrap">
-    <div class="brand"><span class="brand-mark" aria-hidden="true"></span><span>Portfolio collision explorer</span></div>
+    <div class="brand"><span class="brand-mark" aria-hidden="true"></span><span>Portfolio fit-or-collision explorer</span></div>
     <nav class="nav-links" aria-label="Primary navigation">
       <a href="#chart-section">Interactive chart</a><a href="#details">Evidence</a><a href="#methodology">Methodology</a><a href="#downloads">Downloads</a>
     </nav>
@@ -25,9 +25,9 @@
 <main id="main">
   <section class="hero">
     <div class="container">
-      <div class="eyebrow">Interactive portfolio scenario · matched February 2026 snapshots</div>
-      <h1>AstraZeneca + BMS:<br>where does the portfolio <span class="highlight">really collide?</span></h1>
-      <p class="hero-copy">The headline overlap is oncology, but not every shared area is equally direct. This explorer moves from portfolio counts to the exact indication, modality, target and stage evidence behind each bubble.</p>
+      <div class="eyebrow">Interactive portfolio scenario · pipeline disclosures published February 2026 · site updated August 2026</div>
+      <h1>AstraZeneca + BMS:<br>where does the portfolio <span class="highlight">fit—and where does it collide?</span></h1>
+      <p class="hero-copy">The headline overlap is oncology, but the non-overlapping cells matter too. This explorer separates portfolio collision from complementarity, then connects each map cell to the exact programs, indications, modalities and trial evidence underneath it.</p>
       <div class="hero-actions"><a class="button primary" href="#chart-section">Explore the chart</a><a class="button secondary" href="downloads/AZ_BMS_Portfolio_Interactive_Website_Backup.xlsx">Download workbook</a></div>
       <div class="status-note"><span class="status-dot" aria-hidden="true"></span><span>This is a portfolio thought experiment, not a claim that a transaction is proceeding. Clinical and commercial data are sourced; launch windows are clearly labeled analyst scenarios.</span></div>
     </div>
@@ -35,22 +35,37 @@
 
   <section class="section" id="chart-section">
     <div class="container">
-      <div class="section-head"><div><div class="kicker">Main figure</div><h2>Click a bubble to see what is underneath it</h2><p>Top bars retain the late-stage program footprint. Bubble size and label show the number of distinct overlap units; red tone shows how directly the portfolios collide.</p></div></div>
+      <div class="section-head"><div><div class="kicker">Main figure</div><h2>Click a bubble to see what is underneath it</h2><p>Top bars retain the late-stage program footprint. Click a bar to explore portfolio fit across a disease area, or click a bubble to inspect the exact overlap evidence. Bubble size and label show distinct overlap units; red tone shows directness.</p></div></div>
       <div class="card chart-card">
-        <div class="chart-toolbar"><div><div class="chart-title">Late-stage footprint + overlap matrix</div><div class="chart-subtitle">Disease areas are columns; portfolio dimensions are rows</div></div><div class="chart-hint">Click or press Enter on a red bubble</div></div>
+        <div class="chart-toolbar"><div><div class="chart-title">Late-stage footprint + overlap matrix</div><div class="chart-subtitle">Disease areas are columns; portfolio dimensions are rows</div></div><div class="chart-hint">Click a bar for fit · click a bubble for collision</div></div>
         <div class="chart-scroll"><div class="chart-wrap" id="chart"></div></div>
         <noscript><img src="assets/figure-fallback.png" alt="Static portfolio collision chart" style="max-width:100%;height:auto"></noscript>
         <div class="chart-caption"><div class="legend-line"><span class="legend-company"><span class="legend-swatch az"></span>AstraZeneca</span><span class="legend-company"><span class="legend-swatch bms"></span>BMS</span></div><div>Counts are distinct shared territories or classes, not every possible pair of assets.</div></div>
       </div>
-      <div class="insight-strip"><div class="insight-label">What the chart says</div><div><strong>Solid tumors and hematology contain the deepest collision, but the overlap ranges from exact indication or target competition to broad platform adjacency.</strong><p>The evidence section separates those cases and shows the programs, clinical setting, representative trial timing, illustrative launch window and commercial context.</p></div></div>
+      <div class="insight-strip"><div class="insight-label">What the chart says</div><div><strong>Solid tumors and hematology contain the deepest collision, but the overlap ranges from exact indication or target competition to broad platform adjacency.</strong><p>The evidence section now starts with an indication-by-modality map: company-only cells show complementarity, while split-color cells show where the late-stage portfolios occupy the same territory.</p></div></div>
     </div>
   </section>
 
   <section class="section" id="details">
     <div class="container">
-      <div class="section-head"><div><div class="kicker">Bubble evidence</div><h2>From count to exact overlap</h2><p>Select an overlap unit card to narrow the table to one indication, modality, mechanism or stage band.</p></div></div>
+      <div class="section-head"><div><div class="kicker">Fit and collision evidence</div><h2>From portfolio map to exact programs</h2><p>Start with the indication-by-modality matrix, then use an overlap-unit card or a matrix cell to narrow the detailed table.</p></div></div>
       <div class="card detail-card">
-        <div class="selection-head"><div><div class="kicker">Selected chart cell</div><h3 id="detail-title">Loading…</h3><div class="selection-meta" id="detail-meta"></div></div><div class="selection-badge" id="detail-badge"></div></div>
+        <div class="selection-head"><div><div class="kicker">Selected portfolio view</div><h3 id="detail-title">Loading…</h3><div class="selection-meta" id="detail-meta"></div></div><div class="selection-badge" id="detail-badge"></div></div>
+        <section class="fit-map-panel" aria-labelledby="fit-map-title">
+          <div class="fit-map-head">
+            <div><div class="kicker">Fit vs collision map</div><h4 id="fit-map-title">Where the portfolios complement—or collide</h4><p id="fit-map-copy">Rows are normalized modality families; columns are indication territories. Click any populated cell to filter the detailed program table.</p></div>
+            <div class="fit-map-summary" id="fit-map-summary"></div>
+          </div>
+          <div class="fit-map-legend" aria-label="Matrix legend">
+            <span><i class="matrix-key az-only"></i>AZ only · complementary</span>
+            <span><i class="matrix-key bms-only"></i>BMS only · complementary</span>
+            <span><i class="matrix-key overlap"></i>Both · collision</span>
+            <span><i class="matrix-key empty"></i>No mapped late-stage program</span>
+          </div>
+          <div class="fit-map-scroll"><div id="fit-map"></div></div>
+          <div class="fit-map-foot"><span id="fit-map-note">The map is analyst-normalized from the matched company pipeline snapshots.</span><button class="text-button" id="clear-matrix-filter" type="button" hidden>Clear matrix filter</button></div>
+        </section>
+        <div class="unit-section-head" id="unit-section-head"><div><div class="kicker">Collision evidence</div><h4>Exact overlap units behind the selected bubble</h4></div></div>
         <div class="unit-grid" id="unit-grid"></div>
         <div class="detail-controls"><h4>Relevant program detail</h4><input class="search" id="program-search" type="search" placeholder="Search programs, stages or settings" aria-label="Search program details"></div>
         <div class="table-wrap">
@@ -69,7 +84,7 @@
       <div class="section-head"><div><div class="kicker">Methodology</div><h2>How to read the analysis</h2></div></div>
       <div class="method-grid">
         <div class="card method-card"><div class="number">1</div><h3>Late-stage program</h3><p>A unique lead investigational asset in Phase II or Phase III/pivotal/registration development. Approved-indication expansions and major lifecycle-management programs are excluded from the core count.</p></div>
-        <div class="card method-card"><div class="number">2</div><h3>Overlap count</h3><p>One count equals one distinct shared indication territory, modality class, target/mechanism theme or stage band. It is not the number of all possible AZ-BMS asset pairs.</p></div>
+        <div class="card method-card"><div class="number">2</div><h3>Fit vs collision</h3><p>Company-only matrix cells indicate complementarity in the matched late-stage snapshot. Split cells indicate that both companies occupy the same normalized modality × indication territory. Bubble counts remain distinct shared territories or classes—not every possible AZ-BMS asset pair.</p></div>
         <div class="card method-card"><div class="number">3</div><h3>Launch and sales fields</h3><p>Launch windows are illustrative analyst scenarios based on posted trial timing and stage-specific lags. Investigational assets have no historical sales; company-reported brand revenue is shown only for scale context.</p></div>
       </div>
     </div>
@@ -83,6 +98,7 @@
         <a class="card download-card" href="data/portfolio_data.json"><div class="download-type">JSON</div><h3>Website data</h3><p>Single structured export used by the interactive application.</p></a>
         <a class="card download-card" href="data/program_details.csv"><div class="download-type">CSV</div><h3>Program details</h3><p>Trial stage, setting, timing, launch scenario and source URLs.</p></a>
         <a class="card download-card" href="data/overlap_units.csv"><div class="download-type">CSV</div><h3>Overlap evidence</h3><p>Exact indications, modalities, mechanisms and stage bands behind the bubbles.</p></a>
+        <a class="card download-card" href="data/fit_collision_matrix.csv"><div class="download-type">CSV</div><h3>Fit-vs-collision matrix</h3><p>Indication-territory × modality-family cells with company-specific program lists.</p></a>
         <a class="card download-card" href="downloads/AZ_BMS_Portfolio_Collision_Static.pdf"><div class="download-type">PDF</div><h3>Static figure</h3><p>Print-ready version of the original chart.</p></a>
         <a class="card download-card" href="downloads/build_az_bms_lollipop.R"><div class="download-type">R</div><h3>Chart script</h3><p>Reproducible ggplot2 implementation for the static figure.</p></a>
       </div>
@@ -96,7 +112,7 @@
     </div>
   </section>
 </main>
-<footer><div class="container"><div class="footer-grid"><div><strong>Portfolio collision explorer</strong><br>Data as of 5 August 2026; matched pipeline counts use February 2026 company snapshots.</div><div>For strategic discussion only. Not medical, legal or investment advice.</div></div></div></footer>
+<footer><div class="container"><div class="footer-grid"><div><strong>Portfolio fit-or-collision explorer</strong><br>Website updated 5 August 2026; matched portfolio data use company pipeline disclosures published in February 2026.</div><div>For strategic discussion only. Not medical, legal or investment advice.</div></div></div></footer>
 <div class="tooltip" id="tooltip" role="tooltip"></div>
 <script src="assets/data.js"></script><script src="assets/app.js"></script>
 </body>

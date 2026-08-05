@@ -6,7 +6,8 @@
     "lateStageDefinition": "Unique lead investigational asset in Phase II or Phase III/pivotal/registration development; approved-indication expansions and major lifecycle-management programs excluded.",
     "countDefinition": "Distinct shared indication territories, modality classes, target/mechanism themes, or stage bands; not all possible asset-pair permutations.",
     "launchDisclaimer": "Illustrative analyst scenario based on trial primary-completion timing and a stage-specific lag. Not company guidance or a probability-adjusted forecast.",
-    "salesDisclaimer": "Investigational assets have no historical sales. Commercial benchmarks are company-reported worldwide brand revenue and are generally not indication-specific."
+    "salesDisclaimer": "Investigational assets have no historical sales. Commercial benchmarks are company-reported worldwide brand revenue and are generally not indication-specific.",
+    "matrixDefinition": "Analyst-normalized indication-territory by modality-family map. AZ-only and BMS-only cells represent complementarity in the matched late-stage snapshot; split cells represent overlap. The map does not capture earlier-stage, marketed, or undisclosed programs."
   },
   "palette": {
     "az": "#8A1F68",
@@ -903,7 +904,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Small molecule / targeted degradation",
+      "matrixIndications": [
+        "Other solid tumors"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -928,7 +933,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Small molecule / targeted degradation",
+      "matrixIndications": [
+        "Breast cancer"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -953,7 +962,11 @@
       "illustrativeLaunchWindow": "2029-2031",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT06402331",
-      "detailNote": "Phase II; additional combination work is underway."
+      "detailNote": "Phase II; additional combination work is underway.",
+      "matrixModalityFamily": "Radiopharmaceutical",
+      "matrixIndications": [
+        "Prostate cancer"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -978,7 +991,11 @@
       "illustrativeLaunchWindow": "2028-2030",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT05742607",
-      "detailNote": "Early-stage study; no pivotal launch assumption is implied."
+      "detailNote": "Early-stage study; no pivotal launch assumption is implied.",
+      "matrixModalityFamily": "mAb / IO combination",
+      "matrixIndications": [
+        "NSCLC"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1003,7 +1020,12 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Antibody-drug conjugate",
+      "matrixIndications": [
+        "Endometrial cancer",
+        "Other solid tumors"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1028,7 +1050,14 @@
       "illustrativeLaunchWindow": "2030-2031",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT06692738",
-      "detailNote": "Representative pivotal study; the asset has additional NSCLC programs."
+      "detailNote": "Representative pivotal study; the asset has additional NSCLC programs.",
+      "matrixModalityFamily": "Bispecific / dual-target antibody",
+      "matrixIndications": [
+        "NSCLC",
+        "Gastric / GEJ",
+        "HCC / biliary",
+        "Other solid tumors"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1053,7 +1082,12 @@
       "illustrativeLaunchWindow": "2028-2029",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT06120491",
-      "detailNote": "Representative Phase III prostate study."
+      "detailNote": "Representative Phase III prostate study.",
+      "matrixModalityFamily": "Small molecule / targeted degradation",
+      "matrixIndications": [
+        "Prostate cancer",
+        "Breast cancer"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1078,7 +1112,12 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Antibody-drug conjugate",
+      "matrixIndications": [
+        "Gastric / GEJ",
+        "Other solid tumors"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1103,7 +1142,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Antibody-drug conjugate",
+      "matrixIndications": [
+        "Other solid tumors"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1128,7 +1171,12 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Antibody-drug conjugate",
+      "matrixIndications": [
+        "Ovarian cancer",
+        "Other solid tumors"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1153,7 +1201,12 @@
       "illustrativeLaunchWindow": "2029-2030",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT05984277",
-      "detailNote": "Representative pivotal study."
+      "detailNote": "Representative pivotal study.",
+      "matrixModalityFamily": "Bispecific / dual-target antibody",
+      "matrixIndications": [
+        "NSCLC",
+        "Other solid tumors"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1178,7 +1231,11 @@
       "illustrativeLaunchWindow": "2031-2033",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT05850234",
-      "detailNote": "Early-stage CAR-T program; launch window is highly uncertain."
+      "detailNote": "Early-stage CAR-T program; launch window is highly uncertain.",
+      "matrixModalityFamily": "CAR-T",
+      "matrixIndications": [
+        "Multiple myeloma"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1203,7 +1260,11 @@
       "illustrativeLaunchWindow": "2031-2033",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT06106945",
-      "detailNote": "GPRC5D ADC; launch window is highly uncertain."
+      "detailNote": "GPRC5D ADC; launch window is highly uncertain.",
+      "matrixModalityFamily": "Antibody-drug conjugate",
+      "matrixIndications": [
+        "Multiple myeloma"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1228,7 +1289,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Small molecule",
+      "matrixIndications": [
+        "Hodgkin lymphoma"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1253,7 +1318,12 @@
       "illustrativeLaunchWindow": "2032-2033",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT06549595",
-      "detailNote": "Representative pivotal study in the B-cell lymphoma territory."
+      "detailNote": "Representative pivotal study in the B-cell lymphoma territory.",
+      "matrixModalityFamily": "T-cell engager",
+      "matrixIndications": [
+        "B-cell lymphoma",
+        "B-ALL"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1278,7 +1348,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Oral / systemic small molecule",
+      "matrixIndications": [
+        "Asthma"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1303,7 +1377,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Monoclonal / bispecific antibody",
+      "matrixIndications": [
+        "Rheumatoid arthritis"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1328,7 +1406,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Inhaled small molecule",
+      "matrixIndications": [
+        "Asthma"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1353,7 +1435,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Oral / systemic small molecule",
+      "matrixIndications": [
+        "COPD"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1378,7 +1464,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Monoclonal / bispecific antibody",
+      "matrixIndications": [
+        "Crohn's disease"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1403,7 +1493,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Inhaled biologic",
+      "matrixIndications": [
+        "Asthma"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1428,7 +1522,12 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Monoclonal / bispecific antibody",
+      "matrixIndications": [
+        "COPD",
+        "Severe viral LRTD"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1453,7 +1552,11 @@
       "illustrativeLaunchWindow": "2029-2031",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT06299826",
-      "detailNote": "Phase IIb; no pivotal launch assumption is implied."
+      "detailNote": "Phase IIb; no pivotal launch assumption is implied.",
+      "matrixModalityFamily": "Small molecule / oral therapy",
+      "matrixIndications": [
+        "Heart failure"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1478,7 +1581,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Small molecule / oral therapy",
+      "matrixIndications": [
+        "Hypertension / aldosteronism"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1503,7 +1610,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Other targeted therapy",
+      "matrixIndications": [
+        "Dyslipidemia"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1528,7 +1639,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Other targeted / RNA",
+      "matrixIndications": [
+        "MASH"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1553,7 +1668,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Peptide / incretin",
+      "matrixIndications": [
+        "Obesity / weight management"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1578,7 +1697,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Combination therapy",
+      "matrixIndications": [
+        "Obesity / weight management"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1603,7 +1726,12 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Combination therapy",
+      "matrixIndications": [
+        "CKD / proteinuria",
+        "HF with CKD"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1628,7 +1756,12 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Oral small molecule",
+      "matrixIndications": [
+        "Type 2 diabetes",
+        "Obesity / weight management"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1653,7 +1786,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Other targeted / RNA",
+      "matrixIndications": [
+        "Nephropathy"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1678,7 +1815,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Combination therapy",
+      "matrixIndications": [
+        "CKD / proteinuria"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1703,7 +1844,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Protein / fusion therapeutic",
+      "matrixIndications": [
+        "Primary membranous nephropathy"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1728,7 +1873,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "RNA / siRNA",
+      "matrixIndications": [
+        "Antibody-mediated rejection"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1753,7 +1902,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Peptide / receptor agonist-antagonist",
+      "matrixIndications": [
+        "Acromegaly"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1778,7 +1931,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Small molecule / kinase inhibitor",
+      "matrixIndications": [
+        "ANCA vasculitis"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1803,7 +1960,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "mAb / nanobody",
+      "matrixIndications": [
+        "AL amyloidosis"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1828,7 +1989,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "mAb / nanobody",
+      "matrixIndications": [
+        "ATTR-CM"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1853,7 +2018,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Enzyme replacement",
+      "matrixIndications": [
+        "Hypophosphatasia"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1878,7 +2047,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Peptide / receptor agonist-antagonist",
+      "matrixIndications": [
+        "Hypoparathyroidism"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1903,7 +2076,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "mAb / nanobody",
+      "matrixIndications": [
+        "gMG"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1928,7 +2105,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Bispecific antibody",
+      "matrixIndications": [
+        "Bronchiectasis / Pseudomonas"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1953,7 +2134,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Monoclonal antibody",
+      "matrixIndications": [
+        "C. difficile recurrence"
+      ]
     },
     {
       "company": "AstraZeneca",
@@ -1978,7 +2163,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Antibody combination",
+      "matrixIndications": [
+        "S. aureus prevention"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2003,7 +2192,14 @@
       "illustrativeLaunchWindow": "2032-2033",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT07361510",
-      "detailNote": "Representative Phase III study; later timing reflects the currently posted trial schedule."
+      "detailNote": "Representative Phase III study; later timing reflects the currently posted trial schedule.",
+      "matrixModalityFamily": "Bispecific / dual-target antibody",
+      "matrixIndications": [
+        "NSCLC",
+        "SCLC",
+        "Breast cancer",
+        "Other solid tumors"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2028,7 +2224,13 @@
       "illustrativeLaunchWindow": "2029-2031",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT07100080",
-      "detailNote": "Phase II/III design."
+      "detailNote": "Phase II/III design.",
+      "matrixModalityFamily": "Antibody-drug conjugate",
+      "matrixIndications": [
+        "NSCLC",
+        "Breast cancer",
+        "Urothelial cancer"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2053,7 +2255,13 @@
       "illustrativeLaunchWindow": "2031-2033",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT06855771",
-      "detailNote": "Phase II; a registrational path is not assumed."
+      "detailNote": "Phase II; a registrational path is not assumed.",
+      "matrixModalityFamily": "Small molecule / targeted degradation",
+      "matrixIndications": [
+        "NSCLC",
+        "Pancreatic cancer",
+        "Other solid tumors"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2078,7 +2286,11 @@
       "illustrativeLaunchWindow": "2028-2029",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT06764485",
-      "detailNote": "Program is also known as BMS-986365."
+      "detailNote": "Program is also known as BMS-986365.",
+      "matrixModalityFamily": "Small molecule / targeted degradation",
+      "matrixIndications": [
+        "Prostate cancer"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2103,7 +2315,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "mAb / IO combination",
+      "matrixIndications": [
+        "SCLC"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2128,7 +2344,11 @@
       "illustrativeLaunchWindow": "2031-2032",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT06561386",
-      "detailNote": "Potential label expansion of an approved combination; counted here as an investigational program in the matched snapshot."
+      "detailNote": "Potential label expansion of an approved combination; counted here as an investigational program in the matched snapshot.",
+      "matrixModalityFamily": "mAb / IO combination",
+      "matrixIndications": [
+        "NSCLC"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2153,7 +2373,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Radiopharmaceutical",
+      "matrixIndications": [
+        "GEP-NET"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2178,7 +2402,11 @@
       "illustrativeLaunchWindow": "2028-2029",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT06615479",
-      "detailNote": "GPRC5D-directed CAR-T; program also has a later-line Phase II study."
+      "detailNote": "GPRC5D-directed CAR-T; program also has a later-line Phase II study.",
+      "matrixModalityFamily": "CAR-T",
+      "matrixIndications": [
+        "Multiple myeloma"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2203,7 +2431,11 @@
       "illustrativeLaunchWindow": "2029-2030",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT06356129",
-      "detailNote": "Representative Phase III study; additional follicular lymphoma work is underway."
+      "detailNote": "Representative Phase III study; additional follicular lymphoma work is underway.",
+      "matrixModalityFamily": "Targeted protein degradation / CELMoD",
+      "matrixIndications": [
+        "B-cell lymphoma"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2228,7 +2460,11 @@
       "illustrativeLaunchWindow": "2030-2031",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT05827016",
-      "detailNote": "Representative Phase III study; the asset has a broader development program."
+      "detailNote": "Representative Phase III study; the asset has a broader development program.",
+      "matrixModalityFamily": "Targeted protein degradation / CELMoD",
+      "matrixIndications": [
+        "Multiple myeloma"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2253,7 +2489,11 @@
       "illustrativeLaunchWindow": "2027-2028",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT05552976",
-      "detailNote": "BMS reported positive Phase III results in 2026; launch timing remains an analyst scenario."
+      "detailNote": "BMS reported positive Phase III results in 2026; launch timing remains an analyst scenario.",
+      "matrixModalityFamily": "Targeted protein degradation / CELMoD",
+      "matrixIndications": [
+        "Multiple myeloma"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2278,7 +2518,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "CAR-T",
+      "matrixIndications": [
+        "SLE / systemic sclerosis"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2303,7 +2547,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Oral / systemic small molecule",
+      "matrixIndications": [
+        "Pulmonary fibrosis"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2328,7 +2576,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Monoclonal / bispecific antibody",
+      "matrixIndications": [
+        "IgG4-related disease"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2353,7 +2605,11 @@
       "illustrativeLaunchWindow": "2029-2031",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "https://clinicaltrials.gov/study/NCT06122779",
-      "detailNote": "Cardiac myosin inhibitor; not the same indication as approved Camzyos."
+      "detailNote": "Cardiac myosin inhibitor; not the same indication as approved Camzyos.",
+      "matrixModalityFamily": "Small molecule / oral therapy",
+      "matrixIndications": [
+        "Heart failure"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2378,7 +2634,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Small molecule / oral therapy",
+      "matrixIndications": [
+        "AF / stroke prevention"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2403,7 +2663,11 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Monoclonal antibody",
+      "matrixIndications": [
+        "Alzheimer's disease"
+      ]
     },
     {
       "company": "Bristol Myers Squibb",
@@ -2428,7 +2692,12 @@
       "illustrativeLaunchWindow": "Not estimated",
       "historicalSales": "Not launched - no historical sales",
       "trialUrl": "",
-      "detailNote": ""
+      "detailNote": "",
+      "matrixModalityFamily": "Small molecule",
+      "matrixIndications": [
+        "AD agitation",
+        "MS spasticity"
+      ]
     }
   ],
   "commercialBenchmarks": [
@@ -2571,6 +2840,1032 @@
       "date": "2022-02-04",
       "use": "Historical multiple-myeloma franchise benchmark",
       "url": "https://news.bms.com/news/details/2022/Bristol-Myers-Squibb-Reports-Fourth-Quarter-and-Full-Year-Financial-Results-for-2021/default.aspx"
+    }
+  ],
+  "fitCollisionAxes": {
+    "Solid-tumor oncology": {
+      "indications": [
+        "NSCLC",
+        "SCLC",
+        "Breast cancer",
+        "Prostate cancer",
+        "Gastric / GEJ",
+        "Ovarian cancer",
+        "Endometrial cancer",
+        "HCC / biliary",
+        "Pancreatic cancer",
+        "Urothelial cancer",
+        "GEP-NET",
+        "Other solid tumors"
+      ],
+      "modalities": [
+        "Antibody-drug conjugate",
+        "Bispecific / dual-target antibody",
+        "Small molecule / targeted degradation",
+        "mAb / IO combination",
+        "Radiopharmaceutical"
+      ]
+    },
+    "Hematology": {
+      "indications": [
+        "Multiple myeloma",
+        "B-cell lymphoma",
+        "Hodgkin lymphoma",
+        "B-ALL"
+      ],
+      "modalities": [
+        "CAR-T",
+        "Antibody-drug conjugate",
+        "T-cell engager",
+        "Targeted protein degradation / CELMoD",
+        "Small molecule"
+      ]
+    },
+    "Immunology, respiratory & fibrosis": {
+      "indications": [
+        "Asthma",
+        "COPD",
+        "Rheumatoid arthritis",
+        "Crohn's disease",
+        "SLE / systemic sclerosis",
+        "Pulmonary fibrosis",
+        "IgG4-related disease",
+        "Severe viral LRTD"
+      ],
+      "modalities": [
+        "Oral / systemic small molecule",
+        "Inhaled small molecule",
+        "Monoclonal / bispecific antibody",
+        "Inhaled biologic",
+        "CAR-T"
+      ]
+    },
+    "Cardiovascular": {
+      "indications": [
+        "Heart failure",
+        "Hypertension / aldosteronism",
+        "Dyslipidemia",
+        "AF / stroke prevention"
+      ],
+      "modalities": [
+        "Small molecule / oral therapy",
+        "Other targeted therapy"
+      ]
+    },
+    "Rare disease": {
+      "indications": [
+        "Primary membranous nephropathy",
+        "Antibody-mediated rejection",
+        "Acromegaly",
+        "ANCA vasculitis",
+        "AL amyloidosis",
+        "ATTR-CM",
+        "Hypophosphatasia",
+        "Hypoparathyroidism",
+        "gMG"
+      ],
+      "modalities": [
+        "Protein / fusion therapeutic",
+        "RNA / siRNA",
+        "Small molecule / kinase inhibitor",
+        "mAb / nanobody",
+        "Enzyme replacement",
+        "Peptide / receptor agonist-antagonist"
+      ]
+    },
+    "Renal & metabolic": {
+      "indications": [
+        "MASH",
+        "Obesity / weight management",
+        "Type 2 diabetes",
+        "CKD / proteinuria",
+        "Nephropathy",
+        "HF with CKD"
+      ],
+      "modalities": [
+        "Peptide / incretin",
+        "Oral small molecule",
+        "Combination therapy",
+        "Other targeted / RNA"
+      ]
+    },
+    "Infectious disease": {
+      "indications": [
+        "Bronchiectasis / Pseudomonas",
+        "C. difficile recurrence",
+        "S. aureus prevention"
+      ],
+      "modalities": [
+        "Bispecific antibody",
+        "Monoclonal antibody",
+        "Antibody combination"
+      ]
+    },
+    "Neuroscience": {
+      "indications": [
+        "Alzheimer's disease",
+        "AD agitation",
+        "MS spasticity"
+      ],
+      "modalities": [
+        "Monoclonal antibody",
+        "Small molecule"
+      ]
+    }
+  },
+  "fitCollisionMatrix": [
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Antibody-drug conjugate",
+      "indication": "NSCLC",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "izalontamab brengitecan (iza-bren)"
+      ],
+      "azCount": 0,
+      "bmsCount": 1,
+      "status": "bms-only",
+      "id": "solid-tumor-oncology--antibody-drug-conjugate--nsclc"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Antibody-drug conjugate",
+      "indication": "Breast cancer",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "izalontamab brengitecan (iza-bren)"
+      ],
+      "azCount": 0,
+      "bmsCount": 1,
+      "status": "bms-only",
+      "id": "solid-tumor-oncology--antibody-drug-conjugate--breast-cancer"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Antibody-drug conjugate",
+      "indication": "Gastric / GEJ",
+      "azPrograms": [
+        "sonesitatug vedotin"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "solid-tumor-oncology--antibody-drug-conjugate--gastric--gej"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Antibody-drug conjugate",
+      "indication": "Ovarian cancer",
+      "azPrograms": [
+        "torvutatug samrotecan (AZD5335)"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "solid-tumor-oncology--antibody-drug-conjugate--ovarian-cancer"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Antibody-drug conjugate",
+      "indication": "Endometrial cancer",
+      "azPrograms": [
+        "puxitatug samrotecan"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "solid-tumor-oncology--antibody-drug-conjugate--endometrial-cancer"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Antibody-drug conjugate",
+      "indication": "Urothelial cancer",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "izalontamab brengitecan (iza-bren)"
+      ],
+      "azCount": 0,
+      "bmsCount": 1,
+      "status": "bms-only",
+      "id": "solid-tumor-oncology--antibody-drug-conjugate--urothelial-cancer"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Antibody-drug conjugate",
+      "indication": "Other solid tumors",
+      "azPrograms": [
+        "puxitatug samrotecan",
+        "sonesitatug vedotin",
+        "tilatamig samrotecan",
+        "torvutatug samrotecan (AZD5335)"
+      ],
+      "bmsPrograms": [],
+      "azCount": 4,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "solid-tumor-oncology--antibody-drug-conjugate--other-solid-tumors"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Bispecific / dual-target antibody",
+      "indication": "NSCLC",
+      "azPrograms": [
+        "rilvegostomig",
+        "volrustomig"
+      ],
+      "bmsPrograms": [
+        "pumitamig"
+      ],
+      "azCount": 2,
+      "bmsCount": 1,
+      "status": "overlap",
+      "id": "solid-tumor-oncology--bispecific--dual-target-antibody--nsclc"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Bispecific / dual-target antibody",
+      "indication": "SCLC",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "pumitamig"
+      ],
+      "azCount": 0,
+      "bmsCount": 1,
+      "status": "bms-only",
+      "id": "solid-tumor-oncology--bispecific--dual-target-antibody--sclc"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Bispecific / dual-target antibody",
+      "indication": "Breast cancer",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "pumitamig"
+      ],
+      "azCount": 0,
+      "bmsCount": 1,
+      "status": "bms-only",
+      "id": "solid-tumor-oncology--bispecific--dual-target-antibody--breast-cancer"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Bispecific / dual-target antibody",
+      "indication": "Gastric / GEJ",
+      "azPrograms": [
+        "rilvegostomig"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "solid-tumor-oncology--bispecific--dual-target-antibody--gastric--gej"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Bispecific / dual-target antibody",
+      "indication": "HCC / biliary",
+      "azPrograms": [
+        "rilvegostomig"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "solid-tumor-oncology--bispecific--dual-target-antibody--hcc--biliary"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Bispecific / dual-target antibody",
+      "indication": "Other solid tumors",
+      "azPrograms": [
+        "rilvegostomig",
+        "volrustomig"
+      ],
+      "bmsPrograms": [
+        "pumitamig"
+      ],
+      "azCount": 2,
+      "bmsCount": 1,
+      "status": "overlap",
+      "id": "solid-tumor-oncology--bispecific--dual-target-antibody--other-solid-tumors"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Small molecule / targeted degradation",
+      "indication": "NSCLC",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "navlimetostat"
+      ],
+      "azCount": 0,
+      "bmsCount": 1,
+      "status": "bms-only",
+      "id": "solid-tumor-oncology--small-molecule--targeted-degradation--nsclc"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Small molecule / targeted degradation",
+      "indication": "Breast cancer",
+      "azPrograms": [
+        "camizestrant",
+        "saruparib"
+      ],
+      "bmsPrograms": [],
+      "azCount": 2,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "solid-tumor-oncology--small-molecule--targeted-degradation--breast-cancer"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Small molecule / targeted degradation",
+      "indication": "Prostate cancer",
+      "azPrograms": [
+        "saruparib"
+      ],
+      "bmsPrograms": [
+        "AR ligand-directed degrader"
+      ],
+      "azCount": 1,
+      "bmsCount": 1,
+      "status": "overlap",
+      "id": "solid-tumor-oncology--small-molecule--targeted-degradation--prostate-cancer"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Small molecule / targeted degradation",
+      "indication": "Pancreatic cancer",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "navlimetostat"
+      ],
+      "azCount": 0,
+      "bmsCount": 1,
+      "status": "bms-only",
+      "id": "solid-tumor-oncology--small-molecule--targeted-degradation--pancreatic-cancer"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Small molecule / targeted degradation",
+      "indication": "Other solid tumors",
+      "azPrograms": [
+        "AZD9574"
+      ],
+      "bmsPrograms": [
+        "navlimetostat"
+      ],
+      "azCount": 1,
+      "bmsCount": 1,
+      "status": "overlap",
+      "id": "solid-tumor-oncology--small-molecule--targeted-degradation--other-solid-tumors"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "mAb / IO combination",
+      "indication": "NSCLC",
+      "azPrograms": [
+        "IPH5201"
+      ],
+      "bmsPrograms": [
+        "nivolumab + relatlimab HD"
+      ],
+      "azCount": 1,
+      "bmsCount": 1,
+      "status": "overlap",
+      "id": "solid-tumor-oncology--mab--io-combination--nsclc"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "mAb / IO combination",
+      "indication": "SCLC",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "atigotatug + nivolumab"
+      ],
+      "azCount": 0,
+      "bmsCount": 1,
+      "status": "bms-only",
+      "id": "solid-tumor-oncology--mab--io-combination--sclc"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Radiopharmaceutical",
+      "indication": "Prostate cancer",
+      "azPrograms": [
+        "FPI-2265"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "solid-tumor-oncology--radiopharmaceutical--prostate-cancer"
+    },
+    {
+      "diseaseArea": "Solid-tumor oncology",
+      "modality": "Radiopharmaceutical",
+      "indication": "GEP-NET",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "RYZ101"
+      ],
+      "azCount": 0,
+      "bmsCount": 1,
+      "status": "bms-only",
+      "id": "solid-tumor-oncology--radiopharmaceutical--gep-net"
+    },
+    {
+      "diseaseArea": "Hematology",
+      "modality": "CAR-T",
+      "indication": "Multiple myeloma",
+      "azPrograms": [
+        "AZD0120"
+      ],
+      "bmsPrograms": [
+        "arlo-cel"
+      ],
+      "azCount": 1,
+      "bmsCount": 1,
+      "status": "overlap",
+      "id": "hematology--car-t--multiple-myeloma"
+    },
+    {
+      "diseaseArea": "Hematology",
+      "modality": "Antibody-drug conjugate",
+      "indication": "Multiple myeloma",
+      "azPrograms": [
+        "AZD0305"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "hematology--antibody-drug-conjugate--multiple-myeloma"
+    },
+    {
+      "diseaseArea": "Hematology",
+      "modality": "T-cell engager",
+      "indication": "B-cell lymphoma",
+      "azPrograms": [
+        "surovatamig"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "hematology--t-cell-engager--b-cell-lymphoma"
+    },
+    {
+      "diseaseArea": "Hematology",
+      "modality": "T-cell engager",
+      "indication": "B-ALL",
+      "azPrograms": [
+        "surovatamig"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "hematology--t-cell-engager--b-all"
+    },
+    {
+      "diseaseArea": "Hematology",
+      "modality": "Targeted protein degradation / CELMoD",
+      "indication": "Multiple myeloma",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "iberdomide",
+        "mezigdomide"
+      ],
+      "azCount": 0,
+      "bmsCount": 2,
+      "status": "bms-only",
+      "id": "hematology--targeted-protein-degradation--celmod--multiple-myeloma"
+    },
+    {
+      "diseaseArea": "Hematology",
+      "modality": "Targeted protein degradation / CELMoD",
+      "indication": "B-cell lymphoma",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "golcadomide"
+      ],
+      "azCount": 0,
+      "bmsCount": 1,
+      "status": "bms-only",
+      "id": "hematology--targeted-protein-degradation--celmod--b-cell-lymphoma"
+    },
+    {
+      "diseaseArea": "Hematology",
+      "modality": "Small molecule",
+      "indication": "Hodgkin lymphoma",
+      "azPrograms": [
+        "AZD3470"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "hematology--small-molecule--hodgkin-lymphoma"
+    },
+    {
+      "diseaseArea": "Immunology, respiratory & fibrosis",
+      "modality": "Oral / systemic small molecule",
+      "indication": "Asthma",
+      "azPrograms": [
+        "atuliflapon"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "immunology,-respiratory-and-fibrosis--oral--systemic-small-molecule--asthma"
+    },
+    {
+      "diseaseArea": "Immunology, respiratory & fibrosis",
+      "modality": "Oral / systemic small molecule",
+      "indication": "COPD",
+      "azPrograms": [
+        "AZD6793"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "immunology,-respiratory-and-fibrosis--oral--systemic-small-molecule--copd"
+    },
+    {
+      "diseaseArea": "Immunology, respiratory & fibrosis",
+      "modality": "Oral / systemic small molecule",
+      "indication": "Pulmonary fibrosis",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "admilparant"
+      ],
+      "azCount": 0,
+      "bmsCount": 1,
+      "status": "bms-only",
+      "id": "immunology,-respiratory-and-fibrosis--oral--systemic-small-molecule--pulmonary-fibrosis"
+    },
+    {
+      "diseaseArea": "Immunology, respiratory & fibrosis",
+      "modality": "Inhaled small molecule",
+      "indication": "Asthma",
+      "azPrograms": [
+        "AZD4604"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "immunology,-respiratory-and-fibrosis--inhaled-small-molecule--asthma"
+    },
+    {
+      "diseaseArea": "Immunology, respiratory & fibrosis",
+      "modality": "Monoclonal / bispecific antibody",
+      "indication": "COPD",
+      "azPrograms": [
+        "tozorakimab"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "immunology,-respiratory-and-fibrosis--monoclonal--bispecific-antibody--copd"
+    },
+    {
+      "diseaseArea": "Immunology, respiratory & fibrosis",
+      "modality": "Monoclonal / bispecific antibody",
+      "indication": "Rheumatoid arthritis",
+      "azPrograms": [
+        "AZD1163"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "immunology,-respiratory-and-fibrosis--monoclonal--bispecific-antibody--rheumatoid-arthritis"
+    },
+    {
+      "diseaseArea": "Immunology, respiratory & fibrosis",
+      "modality": "Monoclonal / bispecific antibody",
+      "indication": "Crohn's disease",
+      "azPrograms": [
+        "AZD7798"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "immunology,-respiratory-and-fibrosis--monoclonal--bispecific-antibody--crohns-disease"
+    },
+    {
+      "diseaseArea": "Immunology, respiratory & fibrosis",
+      "modality": "Monoclonal / bispecific antibody",
+      "indication": "IgG4-related disease",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "obexelimab"
+      ],
+      "azCount": 0,
+      "bmsCount": 1,
+      "status": "bms-only",
+      "id": "immunology,-respiratory-and-fibrosis--monoclonal--bispecific-antibody--igg4-related-disease"
+    },
+    {
+      "diseaseArea": "Immunology, respiratory & fibrosis",
+      "modality": "Monoclonal / bispecific antibody",
+      "indication": "Severe viral LRTD",
+      "azPrograms": [
+        "tozorakimab"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "immunology,-respiratory-and-fibrosis--monoclonal--bispecific-antibody--severe-viral-lrtd"
+    },
+    {
+      "diseaseArea": "Immunology, respiratory & fibrosis",
+      "modality": "Inhaled biologic",
+      "indication": "Asthma",
+      "azPrograms": [
+        "AZD8630"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "immunology,-respiratory-and-fibrosis--inhaled-biologic--asthma"
+    },
+    {
+      "diseaseArea": "Immunology, respiratory & fibrosis",
+      "modality": "CAR-T",
+      "indication": "SLE / systemic sclerosis",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "zola-cel (CD19 NEX-T)"
+      ],
+      "azCount": 0,
+      "bmsCount": 1,
+      "status": "bms-only",
+      "id": "immunology,-respiratory-and-fibrosis--car-t--sle--systemic-sclerosis"
+    },
+    {
+      "diseaseArea": "Cardiovascular",
+      "modality": "Small molecule / oral therapy",
+      "indication": "Heart failure",
+      "azPrograms": [
+        "AZD5462"
+      ],
+      "bmsPrograms": [
+        "MYK-224"
+      ],
+      "azCount": 1,
+      "bmsCount": 1,
+      "status": "overlap",
+      "id": "cardiovascular--small-molecule--oral-therapy--heart-failure"
+    },
+    {
+      "diseaseArea": "Cardiovascular",
+      "modality": "Small molecule / oral therapy",
+      "indication": "Hypertension / aldosteronism",
+      "azPrograms": [
+        "baxdrostat"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "cardiovascular--small-molecule--oral-therapy--hypertension--aldosteronism"
+    },
+    {
+      "diseaseArea": "Cardiovascular",
+      "modality": "Small molecule / oral therapy",
+      "indication": "AF / stroke prevention",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "milvexian"
+      ],
+      "azCount": 0,
+      "bmsCount": 1,
+      "status": "bms-only",
+      "id": "cardiovascular--small-molecule--oral-therapy--af--stroke-prevention"
+    },
+    {
+      "diseaseArea": "Cardiovascular",
+      "modality": "Other targeted therapy",
+      "indication": "Dyslipidemia",
+      "azPrograms": [
+        "laroprovstat"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "cardiovascular--other-targeted-therapy--dyslipidemia"
+    },
+    {
+      "diseaseArea": "Rare disease",
+      "modality": "Protein / fusion therapeutic",
+      "indication": "Primary membranous nephropathy",
+      "azPrograms": [
+        "ALXN1920"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "rare-disease--protein--fusion-therapeutic--primary-membranous-nephropathy"
+    },
+    {
+      "diseaseArea": "Rare disease",
+      "modality": "RNA / siRNA",
+      "indication": "Antibody-mediated rejection",
+      "azPrograms": [
+        "ALXN2030"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "rare-disease--rna--sirna--antibody-mediated-rejection"
+    },
+    {
+      "diseaseArea": "Rare disease",
+      "modality": "Small molecule / kinase inhibitor",
+      "indication": "ANCA vasculitis",
+      "azPrograms": [
+        "tarperprumig"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "rare-disease--small-molecule--kinase-inhibitor--anca-vasculitis"
+    },
+    {
+      "diseaseArea": "Rare disease",
+      "modality": "mAb / nanobody",
+      "indication": "AL amyloidosis",
+      "azPrograms": [
+        "anselamimab"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "rare-disease--mab--nanobody--al-amyloidosis"
+    },
+    {
+      "diseaseArea": "Rare disease",
+      "modality": "mAb / nanobody",
+      "indication": "ATTR-CM",
+      "azPrograms": [
+        "cliramitug"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "rare-disease--mab--nanobody--attr-cm"
+    },
+    {
+      "diseaseArea": "Rare disease",
+      "modality": "mAb / nanobody",
+      "indication": "gMG",
+      "azPrograms": [
+        "gefurulimab"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "rare-disease--mab--nanobody--gmg"
+    },
+    {
+      "diseaseArea": "Rare disease",
+      "modality": "Enzyme replacement",
+      "indication": "Hypophosphatasia",
+      "azPrograms": [
+        "efzimfotase alfa"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "rare-disease--enzyme-replacement--hypophosphatasia"
+    },
+    {
+      "diseaseArea": "Rare disease",
+      "modality": "Peptide / receptor agonist-antagonist",
+      "indication": "Acromegaly",
+      "azPrograms": [
+        "ALXN2420"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "rare-disease--peptide--receptor-agonist-antagonist--acromegaly"
+    },
+    {
+      "diseaseArea": "Rare disease",
+      "modality": "Peptide / receptor agonist-antagonist",
+      "indication": "Hypoparathyroidism",
+      "azPrograms": [
+        "eneboparatide"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "rare-disease--peptide--receptor-agonist-antagonist--hypoparathyroidism"
+    },
+    {
+      "diseaseArea": "Renal & metabolic",
+      "modality": "Peptide / incretin",
+      "indication": "Obesity / weight management",
+      "azPrograms": [
+        "AZD6234"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "renal-and-metabolic--peptide--incretin--obesity--weight-management"
+    },
+    {
+      "diseaseArea": "Renal & metabolic",
+      "modality": "Oral small molecule",
+      "indication": "Obesity / weight management",
+      "azPrograms": [
+        "elecoglipron (AZD5004)"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "renal-and-metabolic--oral-small-molecule--obesity--weight-management"
+    },
+    {
+      "diseaseArea": "Renal & metabolic",
+      "modality": "Oral small molecule",
+      "indication": "Type 2 diabetes",
+      "azPrograms": [
+        "elecoglipron (AZD5004)"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "renal-and-metabolic--oral-small-molecule--type-2-diabetes"
+    },
+    {
+      "diseaseArea": "Renal & metabolic",
+      "modality": "Combination therapy",
+      "indication": "Obesity / weight management",
+      "azPrograms": [
+        "AZD9550 + AZD6234"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "renal-and-metabolic--combination-therapy--obesity--weight-management"
+    },
+    {
+      "diseaseArea": "Renal & metabolic",
+      "modality": "Combination therapy",
+      "indication": "CKD / proteinuria",
+      "azPrograms": [
+        "balcinrenone / dapagliflozin",
+        "zibotentan / dapagliflozin"
+      ],
+      "bmsPrograms": [],
+      "azCount": 2,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "renal-and-metabolic--combination-therapy--ckd--proteinuria"
+    },
+    {
+      "diseaseArea": "Renal & metabolic",
+      "modality": "Combination therapy",
+      "indication": "HF with CKD",
+      "azPrograms": [
+        "balcinrenone / dapagliflozin"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "renal-and-metabolic--combination-therapy--hf-with-ckd"
+    },
+    {
+      "diseaseArea": "Renal & metabolic",
+      "modality": "Other targeted / RNA",
+      "indication": "MASH",
+      "azPrograms": [
+        "AZD2389"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "renal-and-metabolic--other-targeted--rna--mash"
+    },
+    {
+      "diseaseArea": "Renal & metabolic",
+      "modality": "Other targeted / RNA",
+      "indication": "Nephropathy",
+      "azPrograms": [
+        "opemalirsen"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "renal-and-metabolic--other-targeted--rna--nephropathy"
+    },
+    {
+      "diseaseArea": "Infectious disease",
+      "modality": "Bispecific antibody",
+      "indication": "Bronchiectasis / Pseudomonas",
+      "azPrograms": [
+        "AZD0292"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "infectious-disease--bispecific-antibody--bronchiectasis--pseudomonas"
+    },
+    {
+      "diseaseArea": "Infectious disease",
+      "modality": "Monoclonal antibody",
+      "indication": "C. difficile recurrence",
+      "azPrograms": [
+        "AZD5148"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "infectious-disease--monoclonal-antibody--c.-difficile-recurrence"
+    },
+    {
+      "diseaseArea": "Infectious disease",
+      "modality": "Antibody combination",
+      "indication": "S. aureus prevention",
+      "azPrograms": [
+        "AZD7760"
+      ],
+      "bmsPrograms": [],
+      "azCount": 1,
+      "bmsCount": 0,
+      "status": "az-only",
+      "id": "infectious-disease--antibody-combination--s.-aureus-prevention"
+    },
+    {
+      "diseaseArea": "Neuroscience",
+      "modality": "Monoclonal antibody",
+      "indication": "Alzheimer's disease",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "anti-MTBR tau"
+      ],
+      "azCount": 0,
+      "bmsCount": 1,
+      "status": "bms-only",
+      "id": "neuroscience--monoclonal-antibody--alzheimers-disease"
+    },
+    {
+      "diseaseArea": "Neuroscience",
+      "modality": "Small molecule",
+      "indication": "AD agitation",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "FAAH/MAGL dual inhibitor"
+      ],
+      "azCount": 0,
+      "bmsCount": 1,
+      "status": "bms-only",
+      "id": "neuroscience--small-molecule--ad-agitation"
+    },
+    {
+      "diseaseArea": "Neuroscience",
+      "modality": "Small molecule",
+      "indication": "MS spasticity",
+      "azPrograms": [],
+      "bmsPrograms": [
+        "FAAH/MAGL dual inhibitor"
+      ],
+      "azCount": 0,
+      "bmsCount": 1,
+      "status": "bms-only",
+      "id": "neuroscience--small-molecule--ms-spasticity"
     }
   ]
 }

@@ -1,6 +1,6 @@
-# AstraZeneca + BMS portfolio collision explorer
+# AstraZeneca + BMS portfolio fit-or-collision explorer
 
-A static, dependency-free website package for GitHub Pages. The main chart reproduces the stacked late-stage portfolio bars and interactive overlap bubbles. Clicking a bubble scrolls to the evidence table and exposes the exact indication, modality, target/mechanism or stage units behind the count.
+A static, dependency-free website package for GitHub Pages. The main chart combines stacked late-stage portfolio bars with interactive overlap bubbles. Click a disease-area bar to open an indication-territory × modality-family matrix. Company-only cells show complementarity; split AZ/BMS cells show collision. Clicking any populated matrix cell filters the detailed program table.
 
 ## Publish on GitHub Pages
 
@@ -26,6 +26,8 @@ Then open `http://localhost:8000`.
 
 - `assets/data.js` is the browser-ready data file.
 - `data/portfolio_data.json` is the same dataset as JSON.
+- `data/fit_collision_matrix.csv` contains the aggregated matrix cells.
+- `data/program_matrix_mapping.csv` contains the program-level matrix tags.
 - CSV exports are in `data/`.
 - The source workbook is in `downloads/`.
 
@@ -41,3 +43,11 @@ After changing the data model, keep `assets/data.js` and `data/portfolio_data.js
 ## License and trademarks
 
 The website code is provided under the MIT License. AstraZeneca and Bristol Myers Squibb names are used descriptively; all trademarks remain the property of their respective owners. The package does not include company logo artwork.
+
+## Refresh an existing GitHub Pages site
+
+1. Extract the updated ZIP.
+2. Open the repository root and choose **Add file → Upload files**.
+3. In Windows File Explorer, open the extracted folder, press **Ctrl+A**, and drag the full selection directly onto GitHub's upload area. Do not use the Windows **Open** dialog, which cannot select folders.
+4. Commit directly to `main`. Existing files with the same paths will be replaced and new matrix files will be added.
+5. Check the **Actions** tab for a green Pages deployment, then hard-refresh the live site with **Ctrl+F5**.
