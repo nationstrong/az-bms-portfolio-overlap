@@ -1,0 +1,68 @@
+﻿diseaseArea,modality,indication,status,azCount,bmsCount,azPrograms,bmsPrograms,id
+Solid-tumor oncology,Antibody-drug conjugate,NSCLC,bms-only,0,1,,izalontamab brengitecan (iza-bren),solid-tumor-oncology--antibody-drug-conjugate--nsclc
+Solid-tumor oncology,Antibody-drug conjugate,Breast cancer,bms-only,0,1,,izalontamab brengitecan (iza-bren),solid-tumor-oncology--antibody-drug-conjugate--breast-cancer
+Solid-tumor oncology,Antibody-drug conjugate,Gastric / GEJ,az-only,1,0,sonesitatug vedotin,,solid-tumor-oncology--antibody-drug-conjugate--gastric--gej
+Solid-tumor oncology,Antibody-drug conjugate,Ovarian cancer,az-only,1,0,torvutatug samrotecan (AZD5335),,solid-tumor-oncology--antibody-drug-conjugate--ovarian-cancer
+Solid-tumor oncology,Antibody-drug conjugate,Endometrial cancer,az-only,1,0,puxitatug samrotecan,,solid-tumor-oncology--antibody-drug-conjugate--endometrial-cancer
+Solid-tumor oncology,Antibody-drug conjugate,Urothelial cancer,bms-only,0,1,,izalontamab brengitecan (iza-bren),solid-tumor-oncology--antibody-drug-conjugate--urothelial-cancer
+Solid-tumor oncology,Antibody-drug conjugate,Other solid tumors,az-only,4,0,puxitatug samrotecan; sonesitatug vedotin; tilatamig samrotecan; torvutatug samrotecan (AZD5335),,solid-tumor-oncology--antibody-drug-conjugate--other-solid-tumors
+Solid-tumor oncology,Bispecific / dual-target antibody,NSCLC,overlap,2,1,rilvegostomig; volrustomig,pumitamig,solid-tumor-oncology--bispecific--dual-target-antibody--nsclc
+Solid-tumor oncology,Bispecific / dual-target antibody,SCLC,bms-only,0,1,,pumitamig,solid-tumor-oncology--bispecific--dual-target-antibody--sclc
+Solid-tumor oncology,Bispecific / dual-target antibody,Breast cancer,bms-only,0,1,,pumitamig,solid-tumor-oncology--bispecific--dual-target-antibody--breast-cancer
+Solid-tumor oncology,Bispecific / dual-target antibody,Gastric / GEJ,az-only,1,0,rilvegostomig,,solid-tumor-oncology--bispecific--dual-target-antibody--gastric--gej
+Solid-tumor oncology,Bispecific / dual-target antibody,HCC / biliary,az-only,1,0,rilvegostomig,,solid-tumor-oncology--bispecific--dual-target-antibody--hcc--biliary
+Solid-tumor oncology,Bispecific / dual-target antibody,Other solid tumors,overlap,2,1,rilvegostomig; volrustomig,pumitamig,solid-tumor-oncology--bispecific--dual-target-antibody--other-solid-tumors
+Solid-tumor oncology,Small molecule / targeted degradation,NSCLC,bms-only,0,1,,navlimetostat,solid-tumor-oncology--small-molecule--targeted-degradation--nsclc
+Solid-tumor oncology,Small molecule / targeted degradation,Breast cancer,az-only,2,0,camizestrant; saruparib,,solid-tumor-oncology--small-molecule--targeted-degradation--breast-cancer
+Solid-tumor oncology,Small molecule / targeted degradation,Prostate cancer,overlap,1,1,saruparib,AR ligand-directed degrader,solid-tumor-oncology--small-molecule--targeted-degradation--prostate-cancer
+Solid-tumor oncology,Small molecule / targeted degradation,Pancreatic cancer,bms-only,0,1,,navlimetostat,solid-tumor-oncology--small-molecule--targeted-degradation--pancreatic-cancer
+Solid-tumor oncology,Small molecule / targeted degradation,Other solid tumors,overlap,1,1,AZD9574,navlimetostat,solid-tumor-oncology--small-molecule--targeted-degradation--other-solid-tumors
+Solid-tumor oncology,mAb / IO combination,NSCLC,overlap,1,1,IPH5201,nivolumab + relatlimab HD,solid-tumor-oncology--mab--io-combination--nsclc
+Solid-tumor oncology,mAb / IO combination,SCLC,bms-only,0,1,,atigotatug + nivolumab,solid-tumor-oncology--mab--io-combination--sclc
+Solid-tumor oncology,Radiopharmaceutical,Prostate cancer,az-only,1,0,FPI-2265,,solid-tumor-oncology--radiopharmaceutical--prostate-cancer
+Solid-tumor oncology,Radiopharmaceutical,GEP-NET,bms-only,0,1,,RYZ101,solid-tumor-oncology--radiopharmaceutical--gep-net
+Hematology,CAR-T,Multiple myeloma,overlap,1,1,AZD0120,arlo-cel,hematology--car-t--multiple-myeloma
+Hematology,Antibody-drug conjugate,Multiple myeloma,az-only,1,0,AZD0305,,hematology--antibody-drug-conjugate--multiple-myeloma
+Hematology,T-cell engager,B-cell lymphoma,az-only,1,0,surovatamig,,hematology--t-cell-engager--b-cell-lymphoma
+Hematology,T-cell engager,B-ALL,az-only,1,0,surovatamig,,hematology--t-cell-engager--b-all
+Hematology,Targeted protein degradation / CELMoD,Multiple myeloma,bms-only,0,2,,iberdomide; mezigdomide,hematology--targeted-protein-degradation--celmod--multiple-myeloma
+Hematology,Targeted protein degradation / CELMoD,B-cell lymphoma,bms-only,0,1,,golcadomide,hematology--targeted-protein-degradation--celmod--b-cell-lymphoma
+Hematology,Small molecule,Hodgkin lymphoma,az-only,1,0,AZD3470,,hematology--small-molecule--hodgkin-lymphoma
+"Immunology, respiratory & fibrosis",Oral / systemic small molecule,Asthma,az-only,1,0,atuliflapon,,"immunology,-respiratory-and-fibrosis--oral--systemic-small-molecule--asthma"
+"Immunology, respiratory & fibrosis",Oral / systemic small molecule,COPD,az-only,1,0,AZD6793,,"immunology,-respiratory-and-fibrosis--oral--systemic-small-molecule--copd"
+"Immunology, respiratory & fibrosis",Oral / systemic small molecule,Pulmonary fibrosis,bms-only,0,1,,admilparant,"immunology,-respiratory-and-fibrosis--oral--systemic-small-molecule--pulmonary-fibrosis"
+"Immunology, respiratory & fibrosis",Inhaled small molecule,Asthma,az-only,1,0,AZD4604,,"immunology,-respiratory-and-fibrosis--inhaled-small-molecule--asthma"
+"Immunology, respiratory & fibrosis",Monoclonal / bispecific antibody,COPD,az-only,1,0,tozorakimab,,"immunology,-respiratory-and-fibrosis--monoclonal--bispecific-antibody--copd"
+"Immunology, respiratory & fibrosis",Monoclonal / bispecific antibody,Rheumatoid arthritis,az-only,1,0,AZD1163,,"immunology,-respiratory-and-fibrosis--monoclonal--bispecific-antibody--rheumatoid-arthritis"
+"Immunology, respiratory & fibrosis",Monoclonal / bispecific antibody,Crohn's disease,az-only,1,0,AZD7798,,"immunology,-respiratory-and-fibrosis--monoclonal--bispecific-antibody--crohns-disease"
+"Immunology, respiratory & fibrosis",Monoclonal / bispecific antibody,IgG4-related disease,bms-only,0,1,,obexelimab,"immunology,-respiratory-and-fibrosis--monoclonal--bispecific-antibody--igg4-related-disease"
+"Immunology, respiratory & fibrosis",Monoclonal / bispecific antibody,Severe viral LRTD,az-only,1,0,tozorakimab,,"immunology,-respiratory-and-fibrosis--monoclonal--bispecific-antibody--severe-viral-lrtd"
+"Immunology, respiratory & fibrosis",Inhaled biologic,Asthma,az-only,1,0,AZD8630,,"immunology,-respiratory-and-fibrosis--inhaled-biologic--asthma"
+"Immunology, respiratory & fibrosis",CAR-T,SLE / systemic sclerosis,bms-only,0,1,,zola-cel (CD19 NEX-T),"immunology,-respiratory-and-fibrosis--car-t--sle--systemic-sclerosis"
+Cardiovascular,Small molecule / oral therapy,Heart failure,overlap,1,1,AZD5462,MYK-224,cardiovascular--small-molecule--oral-therapy--heart-failure
+Cardiovascular,Small molecule / oral therapy,Hypertension / aldosteronism,az-only,1,0,baxdrostat,,cardiovascular--small-molecule--oral-therapy--hypertension--aldosteronism
+Cardiovascular,Small molecule / oral therapy,AF / stroke prevention,bms-only,0,1,,milvexian,cardiovascular--small-molecule--oral-therapy--af--stroke-prevention
+Cardiovascular,Other targeted therapy,Dyslipidemia,az-only,1,0,laroprovstat,,cardiovascular--other-targeted-therapy--dyslipidemia
+Rare disease,Protein / fusion therapeutic,Primary membranous nephropathy,az-only,1,0,ALXN1920,,rare-disease--protein--fusion-therapeutic--primary-membranous-nephropathy
+Rare disease,RNA / siRNA,Antibody-mediated rejection,az-only,1,0,ALXN2030,,rare-disease--rna--sirna--antibody-mediated-rejection
+Rare disease,Small molecule / kinase inhibitor,ANCA vasculitis,az-only,1,0,tarperprumig,,rare-disease--small-molecule--kinase-inhibitor--anca-vasculitis
+Rare disease,mAb / nanobody,AL amyloidosis,az-only,1,0,anselamimab,,rare-disease--mab--nanobody--al-amyloidosis
+Rare disease,mAb / nanobody,ATTR-CM,az-only,1,0,cliramitug,,rare-disease--mab--nanobody--attr-cm
+Rare disease,mAb / nanobody,gMG,az-only,1,0,gefurulimab,,rare-disease--mab--nanobody--gmg
+Rare disease,Enzyme replacement,Hypophosphatasia,az-only,1,0,efzimfotase alfa,,rare-disease--enzyme-replacement--hypophosphatasia
+Rare disease,Peptide / receptor agonist-antagonist,Acromegaly,az-only,1,0,ALXN2420,,rare-disease--peptide--receptor-agonist-antagonist--acromegaly
+Rare disease,Peptide / receptor agonist-antagonist,Hypoparathyroidism,az-only,1,0,eneboparatide,,rare-disease--peptide--receptor-agonist-antagonist--hypoparathyroidism
+Renal & metabolic,Peptide / incretin,Obesity / weight management,az-only,1,0,AZD6234,,renal-and-metabolic--peptide--incretin--obesity--weight-management
+Renal & metabolic,Oral small molecule,Obesity / weight management,az-only,1,0,elecoglipron (AZD5004),,renal-and-metabolic--oral-small-molecule--obesity--weight-management
+Renal & metabolic,Oral small molecule,Type 2 diabetes,az-only,1,0,elecoglipron (AZD5004),,renal-and-metabolic--oral-small-molecule--type-2-diabetes
+Renal & metabolic,Combination therapy,Obesity / weight management,az-only,1,0,AZD9550 + AZD6234,,renal-and-metabolic--combination-therapy--obesity--weight-management
+Renal & metabolic,Combination therapy,CKD / proteinuria,az-only,2,0,balcinrenone / dapagliflozin; zibotentan / dapagliflozin,,renal-and-metabolic--combination-therapy--ckd--proteinuria
+Renal & metabolic,Combination therapy,HF with CKD,az-only,1,0,balcinrenone / dapagliflozin,,renal-and-metabolic--combination-therapy--hf-with-ckd
+Renal & metabolic,Other targeted / RNA,MASH,az-only,1,0,AZD2389,,renal-and-metabolic--other-targeted--rna--mash
+Renal & metabolic,Other targeted / RNA,Nephropathy,az-only,1,0,opemalirsen,,renal-and-metabolic--other-targeted--rna--nephropathy
+Infectious disease,Bispecific antibody,Bronchiectasis / Pseudomonas,az-only,1,0,AZD0292,,infectious-disease--bispecific-antibody--bronchiectasis--pseudomonas
+Infectious disease,Monoclonal antibody,C. difficile recurrence,az-only,1,0,AZD5148,,infectious-disease--monoclonal-antibody--c.-difficile-recurrence
+Infectious disease,Antibody combination,S. aureus prevention,az-only,1,0,AZD7760,,infectious-disease--antibody-combination--s.-aureus-prevention
+Neuroscience,Monoclonal antibody,Alzheimer's disease,bms-only,0,1,,anti-MTBR tau,neuroscience--monoclonal-antibody--alzheimers-disease
+Neuroscience,Small molecule,AD agitation,bms-only,0,1,,FAAH/MAGL dual inhibitor,neuroscience--small-molecule--ad-agitation
+Neuroscience,Small molecule,MS spasticity,bms-only,0,1,,FAAH/MAGL dual inhibitor,neuroscience--small-molecule--ms-spasticity
