@@ -159,7 +159,7 @@
     if(!axis||!cells.length){fitMapEl.innerHTML='<div class="empty-state">No normalized matrix data are available for this disease area.</div>';fitMapSummary.innerHTML='';return;}
     const lookup=new Map(cells.map(c=>[`${c.modality}|||${c.indication}`,c]));
     const collision=cells.filter(c=>c.status==='overlap').length,azOnly=cells.filter(c=>c.status==='az-only').length,bmsOnly=cells.filter(c=>c.status==='bms-only').length;
-    fitMapSummary.innerHTML=`<div class="fit-stat"><strong>${collision}</strong><span>collision cells</span></div><div class="fit-stat"><strong>${azOnly+bmsOnly}</strong><span>complement cells</span></div><div class="fit-stat"><strong>${azOnly}</strong><span>AZ only</span></div><div class="fit-stat"><strong>${bmsOnly}</strong><span>BMS only</span></div>`;
+    fitMapSummary.innerHTML=`<div class="fit-stat collision"><strong>${collision}</strong><span>collision cells</span></div><div class="fit-stat complement"><strong>${azOnly+bmsOnly}</strong><span>complementary cells</span></div><div class="fit-stat"><strong>${azOnly}</strong><span>AZ only</span></div><div class="fit-stat"><strong>${bmsOnly}</strong><span>BMS only</span></div>`;
     const shared=sharedAxisSets(area);
     const head=axis.indications.map(ind=>`<th class="${factor==='Shared indications'&&shared.indications.has(ind)?'fit-column-highlight':''}">${esc(ind)}</th>`).join('');
     const rows=axis.modalities.map(mod=>{
