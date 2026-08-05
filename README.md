@@ -28,6 +28,7 @@ Then open `http://localhost:8000`.
 - `data/portfolio_data.json` is the same dataset as JSON.
 - `data/fit_collision_matrix.csv` contains the aggregated matrix cells.
 - `data/program_matrix_mapping.csv` contains the program-level matrix tags.
+- `data/sales_trends.csv` contains reported revenue, analyst projection assumptions and patent / exclusivity events.
 - CSV exports are in `data/`.
 - The source workbook is in `downloads/`.
 
@@ -38,7 +39,9 @@ After changing the data model, keep `assets/data.js` and `data/portfolio_data.js
 - **Late-stage program:** unique lead investigational asset in Phase II or Phase III/pivotal/registration development; approved-indication expansions and major lifecycle-management programs excluded from the core count.
 - **Overlap count:** distinct shared territory/class, not all possible asset-pair permutations.
 - **Launch window:** illustrative analyst scenario from trial primary-completion timing plus a stage-specific lag; not company guidance.
-- **Historical sales:** investigational assets have no historical sales. Company-reported brand revenue is used only as contextual scale and is generally not indication-specific.
+- **Brand context:** the program table distinguishes an approved asset brand from a marketed component or related franchise.
+- **Sales trajectory:** relevant marketed brands are overlaid in one chart on a linear revenue scale. Solid segments are company-reported worldwide revenue and dashed segments are transparent analyst scenarios. Product-specific patent / exclusivity events are shown as red diamonds and incorporated into the forecast assumptions.
+- **Forecast caveat:** projections are not company guidance or consensus estimates; 2026E generally annualizes H1 2026 and later years use disclosed assumptions.
 
 ## License and trademarks
 

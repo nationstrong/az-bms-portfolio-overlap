@@ -10,7 +10,7 @@
   <meta property="og:image" content="assets/figure-fallback.png">
   <title>AstraZeneca + BMS: Portfolio Fit or Collision?</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css?v=3">
+  <link rel="stylesheet" href="assets/styles.css?v=6">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -70,11 +70,19 @@
         <div class="detail-controls"><h4>Relevant program detail</h4><input class="search" id="program-search" type="search" placeholder="Search programs, stages or settings" aria-label="Search program details"></div>
         <div class="table-wrap">
           <table class="data-table">
-            <thead><tr><th>Company</th><th>Program / modality</th><th>Stage</th><th>Representative trial</th><th>Potential launch indication</th><th>Clinical setting / line</th><th>Primary completion</th><th>Illustrative launch window</th><th>Historical sales</th><th>Source / note</th></tr></thead>
+            <thead><tr><th>Company</th><th>Program / brand / modality</th><th>Stage</th><th>Representative trial</th><th>Potential launch indication</th><th>Clinical setting / line</th><th>Primary completion</th><th>Illustrative launch window</th><th>Marketed status / sales context</th><th>Source / note</th></tr></thead>
             <tbody id="program-table-body"></tbody>
           </table>
         </div>
-        <div class="commercial-section" id="commercial-section"><h4>Historical / commercial scale context</h4><div class="benchmark-grid" id="benchmark-grid"></div></div>
+        <div class="commercial-section" id="commercial-section">
+          <div class="commercial-head">
+            <div><div class="kicker">Commercial trajectory</div><h4>Relevant marketed-brand sales: history, scenario and patent cliff</h4><p>All relevant brands are plotted together on a linear revenue scale. Solid segments are company-reported worldwide revenue; dashed segments are analyst scenarios, and red diamonds mark disclosed loss-of-exclusivity events used in the projection.</p></div>
+            <div class="sales-legend" aria-label="Sales chart legend"><span><i class="line-key solid"></i>Reported</span><span><i class="line-key dashed"></i>Projected scenario</span><span><i class="loe-key"></i>Product-specific patent / LOE</span></div>
+          </div>
+          <div class="sales-chart-grid" id="sales-chart-grid"></div>
+          <details class="forecast-disclosure"><summary>How the projections are built</summary><p>2026E generally annualizes reported H1 2026 revenue. Later years apply product-specific growth or erosion assumptions. Disclosed patent and regulatory exclusivity dates are explicitly reflected when they fall inside the forecast horizon. New-launch curves for Etcamah and Baxfendy are illustrative scenarios, not consensus estimates or company guidance.</p></details>
+          <div class="benchmark-subhead">Latest commercial scale points</div><div class="benchmark-grid" id="benchmark-grid"></div>
+        </div>
       </div>
     </div>
   </section>
@@ -96,7 +104,8 @@
       <div class="download-grid">
         <a class="card download-card" href="downloads/AZ_BMS_Portfolio_Interactive_Website_Backup.xlsx"><div class="download-type">XLSX</div><h3>Backup workbook</h3><p>Asset data, overlap units, formulas, trial details and commercial benchmarks.</p></a>
         <a class="card download-card" href="data/portfolio_data.json"><div class="download-type">JSON</div><h3>Website data</h3><p>Single structured export used by the interactive application.</p></a>
-        <a class="card download-card" href="data/program_details.csv"><div class="download-type">CSV</div><h3>Program details</h3><p>Trial stage, setting, timing, launch scenario and source URLs.</p></a>
+        <a class="card download-card" href="data/program_details.csv"><div class="download-type">CSV</div><h3>Program details</h3><p>Trial stage, branded / marketed-component context, setting, timing and source URLs.</p></a>
+        <a class="card download-card" href="data/sales_trends.csv"><div class="download-type">CSV</div><h3>Sales trends</h3><p>Reported revenue, analyst projections, growth assumptions and patent-cliff context.</p></a>
         <a class="card download-card" href="data/overlap_units.csv"><div class="download-type">CSV</div><h3>Overlap evidence</h3><p>Exact indications, modalities, mechanisms and stage bands behind the bubbles.</p></a>
         <a class="card download-card" href="data/fit_collision_matrix.csv"><div class="download-type">CSV</div><h3>Fit-vs-collision matrix</h3><p>Indication-territory × modality-family cells with company-specific program lists.</p></a>
         <a class="card download-card" href="downloads/AZ_BMS_Portfolio_Collision_Static.pdf"><div class="download-type">PDF</div><h3>Static figure</h3><p>Print-ready version of the original chart.</p></a>
@@ -114,6 +123,6 @@
 </main>
 <footer><div class="container"><div class="footer-grid"><div><strong>Portfolio fit-or-collision explorer</strong><br>Website updated 5 August 2026; matched portfolio data use company pipeline disclosures published in February 2026.</div><div>For strategic discussion only. Not medical, legal or investment advice.</div></div></div></footer>
 <div class="tooltip" id="tooltip" role="tooltip"></div>
-<script src="assets/data.js?v=3"></script><script src="assets/app.js?v=3"></script>
+<script src="assets/data.js?v=6"></script><script src="assets/app.js?v=6"></script>
 </body>
 </html>
